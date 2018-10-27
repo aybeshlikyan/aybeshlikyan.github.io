@@ -1,1 +1,0 @@
-# aybeshlikyan.github.io
