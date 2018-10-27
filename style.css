@@ -1,0 +1,52 @@
+body {
+  background-color: #FDFEDC;
+}
+
+.title {
+  font-family: 'Shrikhand', cursive;
+  color: #FBD612;
+  font-size: 150px;
+  text-align: left;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 90%;
+  padding-top: 70px;;
+}
+
+.content {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol {
+  text-align: right;
+  margin-right: 20px;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  display: inline;
+}
+
+li > a {
+  text-decoration: none;
+  padding: 18px;
+  color: black;
+}
+
+li > a:hover {
+  font-weight: bolder;
+
+}
+
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-top: 0;
+  margin-top: 0;
+  color: #B37F5B;
+  text-align: left;
+  line-height: 130%;
+}
