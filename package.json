@@ -12,7 +12,9 @@
     "react-lorem-ipsum": "^1.4.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-typewriter-animation": "0.0.7",
+    "react-typist": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: 50em;
   margin-top: 10rem;
+  color: #333;
 }
 
 .App-logo {
@@ -12,38 +13,57 @@
 
 .right-body {
   height: 100%;
-  width: 75%;
+  width: 65%;
   float: right;
+  padding-left: 0.5rem;
 }
 
-.nav {
-  position: fixed;
-  float: left;
-  width: 25%;
+.left-col {
+  width: 35%;
   height: 100%;
-  z-index: 1;
+  float: left;
+  position: fixed;
+  padding-right: 0.5rem;
+}
+
+.left-col h1 {
+  font-family: 'Roboto Mono', monospace;
+  width: 35%;
+  text-align: right;
 }
 
 .nav .nav-content {
   max-width: 900px;
   padding: 0rem;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 
 .nav-item {
   display: block;
-  color: #333;
   text-align: right;
-  padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.nav-item p {
+  visibility: hidden;
+  display: inline;
+  padding-left: 5px;
+  font-weight: 800;
+  color: #E4AC00;
 }
 
 .nav-item > .active {
-  border-bottom: 1px solid #333;
+  /* border-bottom: 1px solid #333; */
+  font-weight: 800;
+}
+
+.nav-item > .active p {
+  visibility: visible;
 }
 
 .nav-item:hover {
@@ -57,28 +77,5 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
