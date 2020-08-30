@@ -1,11 +1,20 @@
-import React from "react"
+import React, { Component } from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
 import { LoremIpsum } from "react-lorem-ipsum";
+
+export default class Projects extends Component {
+  constructor(props) {
+    super(props);
  
-function Projects(props) {
+    this.state = {
+      id: props.id,
+    };
+  }
+ 
+render() {
   return (
-    <div id={props.id}>
+    <div id={this.props.id}>
         <h1>Projects</h1>
         {/* <Thumbnail
         link="/hestia"
@@ -29,6 +38,5 @@ function Projects(props) {
 
     </div>
   )
+  };
 }
- 
-export default Projects;

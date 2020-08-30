@@ -12,10 +12,17 @@
 }
 
 .right-body {
+  opacity: 1;
+  transition: 0.7s opacity;
   height: 100%;
   width: 65%;
   float: right;
   padding-left: 0.5rem;
+}
+
+.right-body.fade {
+  opacity: 0;
+  transition: none;
 }
 
 .left-col {
@@ -38,6 +45,16 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.nav.fade {
+  opacity: 0;
+  transition: none;
+}
+
+.nav {
+  opacity: 1;
+  transition: 2s opacity;
 }
 
 .nav-item {
