@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './App.css';
 import { LoremIpsum } from "react-lorem-ipsum";
+import Title from "./Title.js"
 
 export default class Projects extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ export default class Projects extends Component {
 render() {
   return (
     <div id={this.props.id}>
-        <h1>Projects</h1>
+        <Title title="PROJECTS"/>
         {/* <Thumbnail
         link="/hestia"
         image=""
