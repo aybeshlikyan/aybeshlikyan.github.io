@@ -27,11 +27,11 @@ export default class Navbar extends Component {
                         EXPERIENCE <p className="dot">•</p>
                     </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <Link className="link" to="publications" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
                         PUBLICATIONS <p className="dot">•</p>
                     </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <Link className="link" to="skills" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
                         SKILLS & INTERESTS <p className="dot">•</p>

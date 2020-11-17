@@ -30,7 +30,7 @@ function App() {
         <About id="about"/>
         <Education id="education"/>
         <Experience id="experience"/>
-        <Publications id="publications"/>
+        {/* <Publications id="publications"/> */}
         <Skills id="skills"/>
         <Courses id="courses"/>
         <Projects id="projects"/>
