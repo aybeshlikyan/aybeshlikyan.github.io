@@ -1,5 +1,4 @@
 import React from "react"
-import { LoremIpsum } from "react-lorem-ipsum";
 import Title from "./Title.js"
  
 function Column({ skills }) {
@@ -15,10 +14,10 @@ function Skills(props) {
       <div class="skills">
         <div class="row">
           <div class="column">
-            <Column skills={['Python', 'R', 'C/C++', 'MatLab', 'Git', 'GitFlow', 'Linux/Bash']}/>
+            <Column skills={['Python', 'R', 'C/C++', 'MatLab', 'Linux/Bash', 'SQL', 'GraphQL', 'MongoDB']}/>
           </div>
           <div class="column">
-            <Column skills={['Figma', 'HTML/CSS', 'Javascript', 'React', 'React Native', 'Node.js', 'GraphQL']}/>
+            <Column skills={['Figma', 'Git', 'HTML/CSS', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'React Native']}/>
           </div>
           <div class="column">
             <Column skills={['Bioinformatics', 'Machine Learning', 'Computer Vision', 'BCI', 'Design']}/>

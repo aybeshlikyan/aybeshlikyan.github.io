@@ -1,5 +1,4 @@
 import React from "react"
-import { LoremIpsum } from "react-lorem-ipsum";
 import Title from "./Title.js"
 
 function School(props){

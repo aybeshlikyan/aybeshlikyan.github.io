@@ -15,6 +15,8 @@ function Name() {
                         v.className = "nav";
                         v = document.getElementById("right-body");
                         v.className = "right-body";
+                        v = document.getElementById("socials");
+                        v.className = "socials";
                     }, 3000)
                 }
         >

@@ -1,5 +1,4 @@
 import React from "react"
-import { LoremIpsum } from "react-lorem-ipsum";
 import Title from "./Title.js"
  
 function School(props){
@@ -42,7 +41,8 @@ function Courses(props) {
         courses={
           [[['Machine Learning',
               'Neural Signal Processing',
-              'Computer Vision'],
+              'Computer Vision',
+              'Scalable Web Services'],
             ['Programming Languages',
               'Data Structures & Algorithms',
               'Computer Networks',
@@ -50,16 +50,19 @@ function Courses(props) {
               'Formal Languages & Automata',
               'Logic Design']],
 
-           [['Digital Signal Processing',
-               'Systems & Signals',
-               'Circuit Theory I & II'],
-             ['Linear Algebra',
+           [['Bioinformatics',
+              'Scalable Web Services'],
+            ['Digital Signal Processing',
+              'Systems & Signals',
+              'Circuit Theory I & II'],
+            ['Linear Algebra',
              'Probability & Statistics'],
-             ['Quantum Programming']]]}/>
+            ['Quantum Programming']]]}/>
       <SchoolAndCourseList
         school="Pompeu Fabra University, Barcelona"
         courses={
-          [[['Statistical Computing in R']]]
+          [[['Statistical Computing in R',
+              'Documentary Filmmaking']]]
         }/>
       <SchoolAndCourseList
         school='University of Glasgow, Scotland'

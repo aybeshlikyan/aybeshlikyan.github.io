@@ -3,7 +3,7 @@
   margin: 0 auto;
   max-width: 60em;
   margin-top: 10rem;
-  color: #333;
+  color: #2C2B2B;
 }
 
 .App-logo {
@@ -17,6 +17,7 @@
   height: 100%;
   width: 65%;
   float: right;
+  padding-bottom: 50%;
 }
 
 .right-body.fade {
@@ -29,6 +30,8 @@
   height: 100%;
   float: left;
   position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
@@ -42,12 +45,14 @@
 }
 
 .nav .nav-content {
-  max-width: 900px;
+  width: 100%;
   float: right;
   padding: 0rem;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+  align-content: flex-start;
 }
 
 .nav.fade {
@@ -62,8 +67,8 @@
 }
 
 .nav-item {
-  display: block;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-family: 'Open Sans', sans-serif;
@@ -83,7 +88,7 @@
 .nav-item > .active {
   /* border-bottom: 1px solid #333; */
   font-weight: 800;
-  color: black;
+  color: #2C2B2B;
 }
 
 .nav-item > .active .dot {
@@ -91,8 +96,36 @@
 }
 
 .nav-item:hover {
-  color: black;
+  color: #2C2B2B;
   cursor: pointer;
+}
+
+.socials.fade {
+  opacity: 0;
+  transition: none;
+}
+
+.socials {
+  opacity: 1;
+  transition: 2s opacity;
+}
+
+.social-icon-row {
+  max-width: 900px;
+  justify-content: flex-end;
+  text-align: right;
+  display: flex;
+  float:none;
+  padding-right: 10px;
+}
+
+/* .social-icon-row {
+  background-color: red;
+} */
+
+.social-icon {
+  display: inline;
+  margin: 6px;
 }
 
 .title {
@@ -106,7 +139,7 @@
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
   display: inline-block;
-  color: #000000;
+  color: #2C2B2B;
   margin: 0;
   margin-top: -2px;
 }
@@ -114,14 +147,13 @@
 .about-content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: black;
+  color: #2C2B2B;
   margin-top: 9px;
 }
 
 .ed-sub {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
-  color: black;
   margin: 0;
   margin-top: -4px;
 }
@@ -129,7 +161,6 @@
 .ed-content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: black;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -151,7 +182,6 @@
 .job-sub {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
-  color: black;
   margin: 0;
   display: inline-block;
 }
@@ -159,7 +189,6 @@
 .job-pos {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: black;
   margin-bottom: 0px;
 }
 
@@ -228,9 +257,39 @@
 .course-school-sub {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
-  color: black;
 }
 
+.contact-input {
+  font-family: 'Roboto Mono', monospace;
+  border:0;
+  border-bottom:1px solid #2C2B2B;
+  padding-bottom:3px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.contact-input:focus {
+  outline:none
+}
+
+textarea {
+  resize:vertical
+}
+
+.contact-submit-button {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #2C2B2B;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-submit-button:hover{
+  background-color: #E4AC00;
+  cursor: pointer;
+}
 /* @media screen and (max-width: 600px) {
   .column {
     width: 100%;

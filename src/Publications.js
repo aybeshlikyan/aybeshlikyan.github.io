@@ -1,5 +1,4 @@
 import React from "react"
-import { LoremIpsum } from "react-lorem-ipsum";
 import Title from "./Title.js"
  
 function Paper(props) {
@@ -18,6 +17,7 @@ function Publications(props) {
     <div id={props.id}>
       <Title title="PUBLICATIONS" />
       <div id="papers">
+        <Paper title="sample"/>
       </div>
     </div>
   )
