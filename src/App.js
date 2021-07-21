@@ -27,7 +27,7 @@ function App() {
         <Navbar />
         <Socials />
       </div>
-      <div id= "right-body" className="right-body fade">
+      <div id= "right-body" className="right-body">
         <About id="about"/>
         <Education id="education"/>
         <Experience id="experience"/>

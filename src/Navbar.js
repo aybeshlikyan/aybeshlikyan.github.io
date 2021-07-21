@@ -10,7 +10,7 @@ export default class Navbar extends Component {
 
     render() {
         return (
-        <nav className="nav fade" id="navbar">
+        <nav className="nav" id="navbar">
             <div className="nav-content">
             <ul>
                 <li className="nav-item">

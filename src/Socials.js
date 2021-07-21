@@ -2,7 +2,7 @@ import React from "react"
 
 function Socials() {
   return (
-    <div className="socials fade" id="socials">
+    <div className="socials" id="socials">
         <div className="social-icon-row">
             <div className="social-icon">
                 <a href="https://github.com/aybeshlikyan"><img src={require('./statics/github-icon.png')} alt="Github"/></a>
